@@ -37,7 +37,7 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 // Then we add our 'graymap' tile layer to the map.
-//streets.addTo(map);
+streets.addTo(map);
 
 
 // Retrieve the earthquake GeoJSON data.
